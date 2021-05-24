@@ -1,0 +1,72 @@
+
+
+
+:root{
+    /*=====Color=======*/
+    --btn-link-color:#2500f9;
+    --title-color:#242f51;
+    --text-color:#59595a;
+    --icon1-bg-color:#feaa25;
+    --hover-color:#FFF;
+
+    --color-content-red:#f55767;
+    --color-content-blue:#2563ff;
+    --color-content-green:#40975f;
+
+    --solor-stars:#ffcc00;
+    --bg-content-color:#e6e6e6;
+    --footer-bg-color:#09142e;
+
+    /*========Font========*/
+
+}
+
+
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+ul,li{
+    list-style-type: none;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/***************/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    line-height: 28px;
+    color:var(--text-color);
+    font-weight: 400;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+.color-red{
+    color: var(--color-content-red);
+}
+.color-blue{
+    color: var(--color-content-blue);
+}
+.color-green{
+    color: var(--color-content-green);
+}
